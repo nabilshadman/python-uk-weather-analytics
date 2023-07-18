@@ -9,7 +9,7 @@ In this [study](https://github.com/nabilshadman/python-uk-weather-analytics/blob
 We use two publicly available datasets for the analysis. The first dataset is the historic [weather](https://www.metoffice.gov.uk/research/climate/maps-and-data/historic-station-data) of the UK with monthly records of weather stations, made available by the Met Office of the UK. Figure 1 maps the weather stations. The second dataset is the personal [well-being](https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/datasets/personalwellbeingestimatesgeographicalbreakdown) estimates of the UK from the Annual Population Survey (April 2014 to March 2015) with geographical breakdown, made available by the Office for National Statistics (ONS) of the UK. Table 1 describes the features used from these datasets for the analysis.  
 
 
-![map_weather_stations](https://github.com/nabilshadman/python-uk-weather-analytics/assets/13073461/3f7b088b-affd-4610-aed7-22bd9289d225)    
+![map_weather_stations_60](https://github.com/nabilshadman/python-uk-weather-analytics/assets/13073461/e289bcc0-6b45-4005-9b2d-b1e283160941)  
 **Figure 1:** Map of weather stations in the UK.  
 
 
@@ -53,10 +53,9 @@ Here are the steps below to run the process end-to-end:
 
 (6) Perform regression of weather and happiness datasets by running [perform_regression_weather_happiness_datasets.ipynb](https://github.com/nabilshadman/python-uk-weather-analytics/blob/main/code/test_automation/perform_regression_weather_happiness_datasets.ipynb) notebook. This notebook loads the census  regions from the [regions.txt](https://github.com/nabilshadman/python-uk-weather-analytics/blob/main/code/test_automation/regions.txt) file, happiness ratings data from the **happiness_data** folder, cleaned  weather stations data from the *stations_dict.pkl* file (created in the clustering stage), and latitude and longitude data from the original text data files of stations. The data from all these files are joined  to create the final dataset to be fed into the regression models. The rest of the program visualises data, computes summary statistics, runs linear regressions, and prints model evaluation metrics.  
 
-
 Figure 2 illustrates the entire project’s workflow and the relationships of the Jupyter notebooks with the intermediate files created in the process.  
 
-![data_science_workflow](https://github.com/nabilshadman/python-uk-weather-analytics/assets/13073461/0d8f7801-a991-40fd-bd79-5f4d74b08277)  
+![data_science_workflow](https://github.com/nabilshadman/python-uk-weather-analytics/assets/13073461/267c5459-6bd4-46d8-8f69-785e0a9e9f52)    
 **Figure 2:** End-to-end project workflow including relationships of notebooks with intermediate files.   
 
 
