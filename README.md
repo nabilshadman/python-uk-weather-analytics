@@ -1,12 +1,12 @@
 # 1. UK Weather Analytics
 
-In this [study](https://github.com/nabilshadman/python-uk-weather-analytics/blob/main/report/uk_weather_analytics_report.pdf), we analyse weather data of the United Kingdom (UK) using both unsupervised and supervised learning algorithms. Due to the natural variation of weather observed by the UK’s weather stations at the tails of their distributions, some clusters of stations are identified. The variation of weather observed regionally enables the building of classification models to predict the region of a station with decent accuracies. Also, we investigate whether the weather in the UK has a linear relationship with happiness in the UK. The analysis demonstrates that the weather in the UK has a negligible effect on happiness in the UK. The entire workflow of this analysis is automated, and the code and the data are made available for anyone interested in expanding on this work. 
+In this [study](https://github.com/nabilshadman/python-uk-weather-analytics/blob/main/report/uk_weather_analytics_report.pdf), we **analyse** weather data of the United Kingdom (UK) using both unsupervised and supervised learning algorithms. Due to the natural variation of weather observed by the UK’s weather stations at the tails of their distributions, some clusters of stations are identified. The variation of weather observed regionally enables the building of classification models to predict the region of a station with decent accuracies. Also, we investigate whether the weather in the UK has a linear relationship with happiness in the UK. The analysis demonstrates that the weather in the UK has a negligible effect on happiness in the UK. The entire workflow of this analysis is automated, and the code and the data are made available for anyone interested in expanding on this work. 
 
 **Tech Stack:** Python (numpy, pandas, matplotlib, scikit-learn, jupyter), Bash  
 
 
 # 2. Data  
-We use two publicly available datasets for the analysis. The first dataset is the historic [weather](https://www.metoffice.gov.uk/research/climate/maps-and-data/historic-station-data) of the UK with monthly records of weather stations, made available by the Met Office of the UK. Figure 1 maps the weather stations. The second dataset is the personal [well-being](https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/datasets/personalwellbeingestimatesgeographicalbreakdown) estimates of the UK from the Annual Population Survey (April 2014 to March 2015) with geographical breakdown, made available by the Office for National Statistics (ONS) of the UK. Table 1 describes the features used from these datasets for the analysis.  
+We use two publicly available **datasets** for the analysis. The first dataset is the historic [weather](https://www.metoffice.gov.uk/research/climate/maps-and-data/historic-station-data) of the UK with monthly records of weather stations, made available by the Met Office of the UK. Figure 1 maps the weather stations. The second dataset is the personal [well-being](https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/datasets/personalwellbeingestimatesgeographicalbreakdown) estimates of the UK from the Annual Population Survey (April 2014 to March 2015) with geographical breakdown, made available by the Office for National Statistics (ONS) of the UK. Table 1 describes the features used from these datasets for the analysis.  
 
 
 ![map_weather_stations_60](https://github.com/nabilshadman/python-uk-weather-analytics/assets/13073461/e289bcc0-6b45-4005-9b2d-b1e283160941)  
@@ -37,7 +37,7 @@ We recommend installing **Anaconda Distribution** before running the notebooks a
 
 
 # 4. Workflow    
-In this section, we describe the end-to-end automation of this data science project. The entire workflow has been automated. The whole process could be rerun easily with opportunities to change parameters at certain places. As we have taken a data science pipeline approach in this project, some intermediate datasets that can be reused in later stages of the pipeline are saved to disk  for reducing computational cost.  
+In this section, we describe the end-to-end **automation** of this data science project. The entire workflow has been automated. The whole process could be rerun easily with opportunities to change parameters at certain places. As we have taken a data science pipeline approach in this project, some intermediate datasets that can be reused in later stages of the pipeline are saved to disk  for reducing computational cost.  
 
 Here are the steps below to run the process end-to-end:  
 
@@ -60,4 +60,4 @@ Figure 2 illustrates the entire project’s workflow and the relationships of th
 
 
 # 5. Report  
-We provide the [report](https://github.com/nabilshadman/python-uk-weather-analytics/blob/main/report/uk_weather_analytics_report.pdf) associated with this repository where we introduce the study, discuss methods applied, analyse results, discuss automation of the analysis, and discuss conclusions.  
+We provide the **[report](https://github.com/nabilshadman/python-uk-weather-analytics/blob/main/report/uk_weather_analytics_report.pdf)** associated with this repository where we introduce the study, discuss methods applied, analyse results, discuss automation of the analysis, and discuss conclusions.  
