@@ -6,7 +6,7 @@
 
 ## Overview
 
-This research project analyzes United Kingdom (UK) weather patterns using machine learning approaches, combining both unsupervised and supervised learning algorithms. Our analysis:
+This [research](https://github.com/nabilshadman/python-uk-weather-analytics/blob/main/report/uk_weather_analytics_report.pdf) project analyzes United Kingdom (UK) weather patterns using machine learning approaches, combining both unsupervised and supervised learning algorithms. Our analysis:
 
 - Identifies distinct regional weather station clusters based on natural variations in weather patterns
 - Develops classification models to predict station regions with high accuracy
