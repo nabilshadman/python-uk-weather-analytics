@@ -132,7 +132,7 @@ If you use this work in your research, please cite:
 @misc{uk-weather-analytics,
   author = {Shadman, Nabil},
   title = {UK Weather Analytics},
-  year = {2024},
+  year = {2021},
   publisher = {GitHub},
   url = {https://github.com/nabilshadman/python-uk-weather-analytics}
 }
